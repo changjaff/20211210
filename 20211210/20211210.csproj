@@ -70,6 +70,7 @@
     <Content Include="Global.asax" />
     <Content Include="SQL.aspx" />
     <Content Include="SQL2.aspx" />
+    <Content Include="SQL3.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="SQL2.aspx.designer.cs">
       <DependentUpon>SQL2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SQL3.aspx.cs">
+      <DependentUpon>SQL3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SQL3.aspx.designer.cs">
+      <DependentUpon>SQL3.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
