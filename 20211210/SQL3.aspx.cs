@@ -36,8 +36,6 @@ namespace _20211210
                 gv_DataShow.DataBind();
                 o_Conn.Close();
 
-
-
             }
 
             catch (Exception o_Exc)
